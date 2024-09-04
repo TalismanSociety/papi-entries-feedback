@@ -1,7 +1,7 @@
 $ bun test:pjs; bun test:papi
 $ bun run test-pjs.ts
-2024-09-04 04:26:05        API/INIT: RPC methods not decorated: chainHead_v1_body, chainHead_v1_call, chainHead_v1_continue, chainHead_v1_follow, chainHead_v1_header, chainHead_v1_stopOperation, chainHead_v1_storage, chainHead_v1_unfollow, chainHead_v1_unpin, chainSpec_v1_chainName, chainSpec_v1_genesisHash, chainSpec_v1_properties, transactionWatch_v1_submitAndWatch, transactionWatch_v1_unwatch, transaction_v1_broadcast, transaction_v1_stop
-[23.04s] Get entries
+2024-09-04 07:06:37        API/INIT: RPC methods not decorated: chainHead_v1_body, chainHead_v1_call, chainHead_v1_continue, chainHead_v1_follow, chainHead_v1_header, chainHead_v1_stopOperation, chainHead_v1_storage, chainHead_v1_unfollow, chainHead_v1_unpin, chainSpec_v1_chainName, chainSpec_v1_genesisHash, chainSpec_v1_properties, transactionWatch_v1_submitAndWatch, transactionWatch_v1_unwatch, transaction_v1_broadcast, transaction_v1_stop
+[19.22s] Get entries
 [
   {
     keyArgs: Uint8Array(72) [ 122, 109, 56, 222, 170, 1, 203, 110, 118, 238, 105, 136, 159, 22, 150, 39, 60, 95, 105, 226, 112, 213, 183, 160, 127, 153, 150, 254, 158, 78, 4, 136, 0, 2, 66, 145, 124, 211, 20, 35, 160, 19, 94, 140, 129, 113, 142, 178, 89, 172, 176, 104, 16, 234, 240, 199, 113, 235, 192, 54, 236, 151, 117, 148, 26, 75, 206, 150, 140, 126, 165, 39 ],
@@ -804,10 +804,10 @@ $ bun run test-pjs.ts
       unbondingEras: [Object ...],
     },
   },
-  ... 46199 more items
+  ... 46196 more items
 ]
 $ bun run test-papi.ts
-[589.35s] Get entries
+[562.57s] Get entries
 [
   {
     keyArgs: [ "14ctR6ZWNUycejiiJY7aW8kWL8CRNSJWimmcEZDExzMoRKpP" ],
@@ -1642,5 +1642,5 @@ $ bun run test-papi.ts
       unbonding_eras: [],
     },
   },
-  ... 46199 more items
+  ... 46196 more items
 ]

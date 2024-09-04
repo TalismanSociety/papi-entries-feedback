@@ -1,5 +1,5 @@
 $ bun run test-papi.ts
-[589.35s] Get entries
+[562.57s] Get entries
 [
   {
     keyArgs: [ "14ctR6ZWNUycejiiJY7aW8kWL8CRNSJWimmcEZDExzMoRKpP" ],
@@ -834,5 +834,5 @@ $ bun run test-papi.ts
       unbonding_eras: [],
     },
   },
-  ... 46199 more items
+  ... 46196 more items
 ]

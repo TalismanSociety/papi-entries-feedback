@@ -2,11 +2,10 @@ import { ApiPromise, WsProvider } from '@polkadot/api'
 
 const rpcUrl = 'wss://rpc.ibp.network/polkadot'
 
+console.time('Get entries')
 const api = new ApiPromise({ provider: new WsProvider(rpcUrl) })
 try {
   await api.isReadyOrError
-
-  console.time('Get entries')
   const result = await api.query.nominationPools.poolMembers.entries()
   console.timeEnd('Get entries')
 
