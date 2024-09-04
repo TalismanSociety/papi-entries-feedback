@@ -1,0 +1,19 @@
+{
+  "name": "papi-entries-feedback",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test:pjs": "bun run test-pjs.ts",
+    "test:papi": "bun run test-papi.ts",
+    "test:all": "bun test:pjs; bun test:papi"
+  },
+  "dependencies": {
+    "@polkadot-api/descriptors": "file:.papi/descriptors",
+    "@polkadot/api": "^12.4.2",
+    "@types/bun": "latest",
+    "polkadot-api": "^1.1.0"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
