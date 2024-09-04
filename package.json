@@ -3,6 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
+    "postinstall": "bun x papi",
     "test:pjs": "bun run test-pjs.ts",
     "test:papi": "bun run test-papi.ts",
     "test:all": "bun test:pjs; bun test:papi"
