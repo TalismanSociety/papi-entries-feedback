@@ -20,3 +20,9 @@ To run:
 ```bash
 bun run test:all
 ```
+
+Log to results.log:
+
+```bash
+bun run test:all >results.log 2>&1
+```
