@@ -2,6 +2,9 @@
 
 ## Repo Creation Steps
 
+> NOTE: Please run `bun upgrade` before you execute these tests locally.  
+> Even a bun version as recent as v1.1.3 will throw `No response received from RPC endpoint in 60s` errors.
+
 ```
 bun init # using bun v1.1.26
 bun add polkadot-api
