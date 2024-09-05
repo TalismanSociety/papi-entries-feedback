@@ -1,5 +1,7 @@
 # papi-entries-feedback
 
+Minimal reproduction of https://github.com/paritytech/polkadot-sdk/issues/5589
+
 ## Repo Creation Steps
 
 > NOTE: Please run `bun upgrade` before you execute these tests locally.  
